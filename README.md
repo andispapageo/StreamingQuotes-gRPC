@@ -1,6 +1,6 @@
 # StreamingQuotes-gRPC with CoinGecko
 
-> A high-performance, real-time cryptocurrency price streaming service built with gRPC and .NET 8
+> Real-time cryptocurrency price streaming service built with gRPC and .NET 8
 
 [![.NET Version](https://img.shields.io/badge/.NET-8.0-512BD4?logo=dotnet)](https://dotnet.microsoft.com/download/dotnet/8.0)
 [![gRPC](https://img.shields.io/badge/gRPC-Latest-244c5a?logo=grpc)](https://grpc.io/)
