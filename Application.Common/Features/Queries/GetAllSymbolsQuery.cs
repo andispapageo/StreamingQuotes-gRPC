@@ -1,7 +1,7 @@
 ﻿using Application.Behaviors.Results;
-using Application.Common.DTOs;
 using Application.Common.Interfaces;
 using Application.Common.Mappings;
+using Application.Contracts.DTOs;
 using Domain.Core.Interface.Infrastructure.Persistence;
 
 namespace Application.Common.Features.Queries
@@ -16,10 +16,7 @@ namespace Application.Common.Features.Queries
     {
         private readonly ICryptoAssetProvider _repository;
 
-        public GetAllSymbolsQueryHandler(ICryptoAssetProvider repository)
-        {
-            _repository = repository;
-        }
+        public GetAllSymbolsQueryHandler(ICryptoAssetProvider repository) => _repository = repository;
 
         public async Task<Result<IReadOnlyList<CryptoAssetDto>>> Handle(
             GetAllSymbolsQuery request,

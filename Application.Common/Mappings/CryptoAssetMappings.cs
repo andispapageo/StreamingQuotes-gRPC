@@ -1,4 +1,4 @@
-﻿using Application.Common.DTOs;
+﻿using Application.Contracts.DTOs;
 using Domain.Core.Entities;
 
 namespace Application.Common.Mappings

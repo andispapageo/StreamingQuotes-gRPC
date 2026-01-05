@@ -1,4 +1,4 @@
-﻿namespace Application.Common.DTOs
+﻿namespace Application.Contracts.DTOs
 {
     public sealed record CryptoAssetDto
     {

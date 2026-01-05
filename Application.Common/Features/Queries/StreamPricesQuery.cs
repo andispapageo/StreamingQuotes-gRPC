@@ -1,6 +1,6 @@
-﻿using Application.Common.DTOs;
-using Application.Common.Interfaces;
+﻿using Application.Common.Interfaces;
 using Application.Common.Mappings;
+using Application.Contracts.DTOs;
 using Domain.Core.Interface.Infrastructure.Persistence;
 using Domain.Core.ValueObjects;
 using System.Runtime.CompilerServices;
@@ -21,7 +21,6 @@ namespace Application.Common.Features.Queries
             [EnumeratorCancellation] CancellationToken cancellationToken)
         {
             var symbolIds = request.SymbolIds.Select(SymbolId.Create).ToList();
-
             await foreach (var asset in _repository.StreamByIdsAsync(symbolIds, request.IntervalMs, cancellationToken))
             {
                 yield return asset.ToPriceUpdate();

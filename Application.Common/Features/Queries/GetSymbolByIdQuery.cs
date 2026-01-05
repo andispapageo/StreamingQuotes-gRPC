@@ -1,7 +1,7 @@
 ﻿using Application.Behaviors.Results;
-using Application.Common.DTOs;
 using Application.Common.Interfaces;
 using Application.Common.Mappings;
+using Application.Contracts.DTOs;
 using Domain.Core.Interface.Infrastructure.Persistence;
 using Domain.Core.ValueObjects;
 

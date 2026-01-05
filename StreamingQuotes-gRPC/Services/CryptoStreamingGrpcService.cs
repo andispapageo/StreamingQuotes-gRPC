@@ -1,5 +1,5 @@
-﻿using Application.Common.DTOs;
-using Application.Common.Features.Queries;
+﻿using Application.Common.Features.Queries;
+using Application.Contracts.DTOs;
 using Google.Protobuf.WellKnownTypes;
 using Grpc.Core;
 using MediatR;

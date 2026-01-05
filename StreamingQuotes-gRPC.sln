@@ -25,6 +25,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Protos", "Protos\Protos.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CryptoStreaming.ClientApp", "CryptoStreaming.ClientApp\CryptoStreaming.ClientApp.csproj", "{C858E512-0A55-4658-B54C-9E918D9E5F8D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Mappings", "Application.Mappings\Application.Mappings.csproj", "{CE410887-B24F-4589-9A92-A341CD0AAFC9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application.Contracts", "Application.Contracts\Application.Contracts.csproj", "{93FCD9B0-6518-4FB9-9E30-87B6DE1F62EE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{C858E512-0A55-4658-B54C-9E918D9E5F8D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C858E512-0A55-4658-B54C-9E918D9E5F8D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C858E512-0A55-4658-B54C-9E918D9E5F8D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CE410887-B24F-4589-9A92-A341CD0AAFC9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE410887-B24F-4589-9A92-A341CD0AAFC9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE410887-B24F-4589-9A92-A341CD0AAFC9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE410887-B24F-4589-9A92-A341CD0AAFC9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{93FCD9B0-6518-4FB9-9E30-87B6DE1F62EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{93FCD9B0-6518-4FB9-9E30-87B6DE1F62EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{93FCD9B0-6518-4FB9-9E30-87B6DE1F62EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{93FCD9B0-6518-4FB9-9E30-87B6DE1F62EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -73,6 +85,8 @@ Global
 		{D199849E-CC10-4A4D-B27B-2B1E8E1238B0} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 		{B1FB227A-FCA6-435D-96FE-E153C88DC1D7} = {CB31109B-3E52-4000-AE34-8C625570D726}
 		{238FAD1E-A162-40F8-9A23-563894FAFDAE} = {CB31109B-3E52-4000-AE34-8C625570D726}
+		{CE410887-B24F-4589-9A92-A341CD0AAFC9} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
+		{93FCD9B0-6518-4FB9-9E30-87B6DE1F62EE} = {02EA681E-C7D8-13C7-8484-4AC65E1B71E8}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {77F871F6-B1FA-45D6-A8F4-FDC6D727259D}
