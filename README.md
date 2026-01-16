@@ -132,7 +132,7 @@ docker run -p 5001:5001 -p 5002:5002 streaming-quotes-grpc
 
 ---
 
-## ⚙️ Configuration
+## Configuration
 
 ### Primary Settings
 
@@ -215,7 +215,7 @@ Edit `appsettings.json` to customize behavior:
 
 ---
 
-## 📡 API Reference
+## API Reference
 
 ### Service Definition
 
@@ -351,7 +351,7 @@ message PriceUpdateResponse {
 
 ---
 
-## 💻 Client Examples
+##  Client Examples
 
 ### C# Client
 
