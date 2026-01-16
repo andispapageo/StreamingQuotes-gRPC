@@ -593,7 +593,7 @@ spec:
 
 ---
 
-## ⚡ Performance
+## Performance
 
 ### Benchmarks
 
