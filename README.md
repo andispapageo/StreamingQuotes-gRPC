@@ -40,7 +40,7 @@ The application its streaming crypto symbols by coingecko -> (https://www.coinge
 
 ---
 
-## 🏛️ Architecture
+## Architecture
 
 
 ### Design Patterns
@@ -111,7 +111,7 @@ dotnet run
 
 The server will start on:
  gRPC endpoint: `https://localhost:5001` (HTTP/2)
-- 🌐 Web endpoint: `https://localhost:5002` (HTTP/1.1 & HTTP/2)
+ Web endpoint: `https://localhost:5002` (HTTP/1.1 & HTTP/2)
 
 **5. Run the client (in a new terminal)**
 
@@ -661,12 +661,3 @@ dotnet test
 # Check code formatting
 dotnet format --verify-no-changes
 ```
-
-### Code Standards
-
-- Follow [C# Coding Conventions](https://docs.microsoft.com/en-us/dotnet/csharp/fundamentals/coding-style/coding-conventions)
-- Write unit tests for new features (aim for 80%+ coverage)
-- Update documentation for API changes
-- Use conventional commits for commit messages
-
----
